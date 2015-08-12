@@ -1,0 +1,631 @@
+2015-08-12 11:08:58,212 18399 INFO ? openerp: OpenERP version 8.0
+2015-08-12 11:08:58,212 18399 INFO ? openerp: addons paths: ['/home/bista/ws/odoo_git/addons/runbot/static/build/00005-master-be6d09/datadir/addons/8.0', u'/home/bista/ws/odoo_git/addons/runbot/static/build/00005-master-be6d09/openerp/addons', u'/home/bista/ws/odoo_git/addons/runbot/static/build/00005-master-be6d09/addons']
+2015-08-12 11:08:58,212 18399 INFO ? openerp: database hostname: localhost
+2015-08-12 11:08:58,212 18399 INFO ? openerp: database port: 5432
+2015-08-12 11:08:58,212 18399 INFO ? openerp: database user: bista
+2015-08-12 11:08:58,554 18399 INFO ? openerp.service.server: HTTP service (werkzeug) running on 0.0.0.0:2000
+2015-08-12 11:08:58,706 18399 INFO ? openerp.modules.loading: init db
+2015-08-12 11:09:01,978 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading 1 modules...
+2015-08-12 11:09:02,207 18399 INFO 00005-master-be6d09-base openerp.modules.module: module base: creating or updating database tables
+2015-08-12 11:09:06,607 18399 INFO 00005-master-be6d09-base openerp.models: Computing parent left and right for table ir_ui_menu...
+2015-08-12 11:09:35,372 18399 INFO 00005-master-be6d09-base openerp.models: Computing parent left and right for table res_partner_category...
+2015-08-12 11:09:49,225 18399 INFO 00005-master-be6d09-base openerp.models: storing computed values of fields.function 'web_icon_data'
+2015-08-12 11:09:49,226 18399 INFO 00005-master-be6d09-base openerp.models: storing computed values of fields.function 'needaction_enabled'
+2015-08-12 11:09:49,226 18399 INFO 00005-master-be6d09-base openerp.models: storing computed values of fields.function 'web_icon_hover_data'
+2015-08-12 11:09:49,226 18399 INFO 00005-master-be6d09-base openerp.models: storing computed values of fields.function 'report_file'
+2015-08-12 11:09:49,227 18399 INFO 00005-master-be6d09-base openerp.models: storing computed values of fields.function 'crud_model_name'
+2015-08-12 11:09:49,227 18399 INFO 00005-master-be6d09-base openerp.models: storing computed values of fields.function 'wkf_model_name'
+2015-08-12 11:09:49,228 18399 INFO 00005-master-be6d09-base openerp.models: storing computed values of fields.function 'global'
+2015-08-12 11:09:49,228 18399 INFO 00005-master-be6d09-base openerp.models: storing computed values of fields.function 'menus_by_module'
+2015-08-12 11:09:49,390 18399 INFO 00005-master-be6d09-base openerp.models: storing computed values of fields.function 'reports_by_module'
+2015-08-12 11:09:49,452 18399 INFO 00005-master-be6d09-base openerp.models: storing computed values of fields.function 'views_by_module'
+2015-08-12 11:09:49,515 18399 INFO 00005-master-be6d09-base openerp.models: storing computed values of fields.function 'image_small'
+2015-08-12 11:09:49,516 18399 INFO 00005-master-be6d09-base openerp.models: storing computed values of fields.function 'display_name'
+2015-08-12 11:09:49,518 18399 INFO 00005-master-be6d09-base openerp.models: storing computed values of fields.function 'image_medium'
+2015-08-12 11:09:49,519 18399 INFO 00005-master-be6d09-base openerp.models: storing computed values of fields.function 'commercial_partner_id'
+2015-08-12 11:09:49,519 18399 INFO 00005-master-be6d09-base openerp.models: storing computed values of fields.function 'logo_web'
+2015-08-12 11:09:49,521 18399 INFO 00005-master-be6d09-base openerp.models: storing computed values of fields.function 'email'
+2015-08-12 11:09:49,521 18399 INFO 00005-master-be6d09-base openerp.models: storing computed values of fields.function 'phone'
+2015-08-12 11:09:49,544 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/base_data.xml
+2015-08-12 11:09:49,765 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/res/res_currency_data.xml
+2015-08-12 11:09:51,035 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/res/res_country_data.xml
+2015-08-12 11:09:52,164 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/security/base_security.xml
+2015-08-12 11:09:52,297 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/base_menu.xml
+2015-08-12 11:09:52,529 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/res/res_config.xml
+2015-08-12 11:09:52,558 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/res/res.country.state.csv
+2015-08-12 11:09:52,792 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/ir/ir_actions.xml
+2015-08-12 11:09:53,232 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/ir/ir_config_parameter_view.xml
+2015-08-12 11:09:53,301 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/ir/ir_cron_view.xml
+2015-08-12 11:09:53,394 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/ir/ir_filters.xml
+2015-08-12 11:09:53,495 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/ir/ir_mail_server_view.xml
+2015-08-12 11:09:53,593 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/ir/ir_model_view.xml
+2015-08-12 11:09:54,129 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/ir/ir_attachment_view.xml
+2015-08-12 11:09:54,216 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/ir/ir_rule_view.xml
+2015-08-12 11:09:54,302 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/ir/ir_sequence_view.xml
+2015-08-12 11:09:54,447 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/ir/ir_translation_view.xml
+2015-08-12 11:09:54,526 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/ir/ir_ui_menu_view.xml
+2015-08-12 11:09:54,607 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/ir/ir_ui_view_view.xml
+2015-08-12 11:09:54,765 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/ir/ir_values_view.xml
+2015-08-12 11:09:54,908 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/ir/osv_memory_autovacuum.xml
+2015-08-12 11:09:54,920 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/ir/ir_model_report.xml
+2015-08-12 11:09:54,940 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/ir/ir_logging_view.xml
+2015-08-12 11:09:55,030 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/ir/ir_qweb.xml
+2015-08-12 11:09:55,050 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/workflow/workflow_view.xml
+2015-08-12 11:09:55,489 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/module/module_view.xml
+2015-08-12 11:09:55,721 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/module/module_data.xml
+2015-08-12 11:09:55,869 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/module/module_report.xml
+2015-08-12 11:09:55,883 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/module/wizard/base_module_update_view.xml
+2015-08-12 11:09:55,921 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/module/wizard/base_language_install_view.xml
+2015-08-12 11:09:55,961 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/module/wizard/base_import_language_view.xml
+2015-08-12 11:09:56,001 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/module/wizard/base_module_upgrade_view.xml
+2015-08-12 11:09:56,061 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/module/wizard/base_module_configuration_view.xml
+2015-08-12 11:09:56,076 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/module/wizard/base_export_language_view.xml
+2015-08-12 11:09:56,117 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/module/wizard/base_update_translations_view.xml
+2015-08-12 11:09:56,158 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/module/wizard/base_module_immediate_install.xml
+2015-08-12 11:09:56,179 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/res/res_company_view.xml
+2015-08-12 11:09:56,378 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/res/res_request_view.xml
+2015-08-12 11:09:56,459 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/res/res_lang_view.xml
+2015-08-12 11:09:56,540 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/res/res_partner_report.xml
+2015-08-12 11:09:56,560 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/res/res_partner_view.xml
+2015-08-12 11:09:56,946 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/res/res_bank_view.xml
+2015-08-12 11:09:57,135 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/res/res_country_view.xml
+2015-08-12 11:09:57,347 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/res/res_currency_view.xml
+2015-08-12 11:09:57,425 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/res/res_users_view.xml
+2015-08-12 11:09:57,758 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/res/res_partner_data.xml
+2015-08-12 11:09:57,814 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/res/ir_property_view.xml
+2015-08-12 11:09:57,887 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/res/res_security.xml
+2015-08-12 11:09:57,977 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/security/ir.model.access.csv
+2015-08-12 11:09:58,685 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/base_demo.xml
+2015-08-12 11:09:58,850 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/res/res_partner_demo.xml
+2015-08-12 11:10:00,303 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/res/res_partner_demo.yml
+2015-08-12 11:10:02,370 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/res/res_partner_image_demo.xml
+2015-08-12 11:10:04,058 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/tests/base_test.yml
+2015-08-12 11:10:04,421 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/tests/test_osv_expression.yml
+2015-08-12 11:10:05,889 18399 INFO 00005-master-be6d09-base openerp.addons.base.ir.ir_translation: module base: loading translation file (fr) for language fr_FR
+2015-08-12 11:10:05,889 18399 INFO 00005-master-be6d09-base openerp.tools.translate: loading /home/bista/ws/odoo_git/addons/runbot/static/build/00005-master-be6d09/openerp/addons/base/i18n/fr.po
+2015-08-12 11:10:05,890 18399 WARNING 00005-master-be6d09-base openerp.addons.base.res.res_lang: Unable to get information for locale fr_FR. Information from the default locale (en_IN) have been used.
+2015-08-12 11:10:07,082 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base/tests/test_ir_rule.yml
+2015-08-12 11:10:07,504 18399 INFO 00005-master-be6d09-base openerp.modules.module: openerp.addons.base.tests.test_acl running tests.
+2015-08-12 11:10:07,505 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_acl: test_field_crud_restriction (openerp.addons.base.tests.test_acl.TestACL)
+2015-08-12 11:10:07,505 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_acl: ` Read/Write RPC access to restricted field should be forbidden
+2015-08-12 11:10:07,684 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_acl: test_field_visibility_restriction (openerp.addons.base.tests.test_acl.TestACL)
+2015-08-12 11:10:07,684 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_acl: ` Check that model-level ``groups`` parameter effectively restricts access to that
+2015-08-12 11:10:07,808 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_acl: test_fields_browse_restriction (openerp.addons.base.tests.test_acl.TestACL)
+2015-08-12 11:10:07,808 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_acl: ` Test access to records having restricted fields
+2015-08-12 11:10:07,817 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_acl: Ran 3 tests in 0.312s
+2015-08-12 11:10:07,818 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_acl: OK
+2015-08-12 11:10:07,818 18399 INFO 00005-master-be6d09-base openerp.modules.module: openerp.addons.base.tests.test_api running tests.
+2015-08-12 11:10:07,818 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: test_00_query (openerp.addons.base.tests.test_api.TestAPI)
+2015-08-12 11:10:07,818 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: ` Build a recordset, and check its contents.
+2015-08-12 11:10:07,821 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: test_01_query_offset (openerp.addons.base.tests.test_api.TestAPI)
+2015-08-12 11:10:07,821 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: ` Build a recordset with offset, and check equivalence.
+2015-08-12 11:10:07,823 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: test_02_query_limit (openerp.addons.base.tests.test_api.TestAPI)
+2015-08-12 11:10:07,823 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: ` Build a recordset with offset, and check equivalence.
+2015-08-12 11:10:07,825 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: test_03_query_offset_limit (openerp.addons.base.tests.test_api.TestAPI)
+2015-08-12 11:10:07,825 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: ` Build a recordset with offset and limit, and check equivalence.
+2015-08-12 11:10:07,827 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: test_05_immutable (openerp.addons.base.tests.test_api.TestAPI)
+2015-08-12 11:10:07,827 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: ` Check that a recordset remains the same, even after updates.
+2015-08-12 11:10:07,843 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: test_06_fields (openerp.addons.base.tests.test_api.TestAPI)
+2015-08-12 11:10:07,843 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: ` Check that relation fields return records, recordsets or nulls.
+2015-08-12 11:10:07,925 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: test_07_null (openerp.addons.base.tests.test_api.TestAPI)
+2015-08-12 11:10:07,925 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: ` Check behavior of null instances.
+2015-08-12 11:10:07,944 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: test_10_old_old (openerp.addons.base.tests.test_api.TestAPI)
+2015-08-12 11:10:07,944 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: ` Call old-style methods in the old-fashioned way.
+2015-08-12 11:10:07,962 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: test_20_old_new (openerp.addons.base.tests.test_api.TestAPI)
+2015-08-12 11:10:07,962 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: ` Call old-style methods in the new API style.
+2015-08-12 11:10:07,979 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: test_25_old_new (openerp.addons.base.tests.test_api.TestAPI)
+2015-08-12 11:10:07,979 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: ` Call old-style methods on records (new API style).
+2015-08-12 11:10:07,998 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: test_30_new_old (openerp.addons.base.tests.test_api.TestAPI)
+2015-08-12 11:10:07,998 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: ` Call new-style methods in the old-fashioned way.
+2015-08-12 11:10:08,014 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: test_40_new_new (openerp.addons.base.tests.test_api.TestAPI)
+2015-08-12 11:10:08,014 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: ` Call new-style methods in the new API style.
+2015-08-12 11:10:08,029 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: test_45_new_new (openerp.addons.base.tests.test_api.TestAPI)
+2015-08-12 11:10:08,029 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: ` Call new-style methods on records (new API style).
+2015-08-12 11:10:08,059 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: test_50_environment (openerp.addons.base.tests.test_api.TestAPI)
+2015-08-12 11:10:08,059 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: ` Test environment on records.
+2015-08-12 11:10:08,128 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: test_55_draft (openerp.addons.base.tests.test_api.TestAPI)
+2015-08-12 11:10:08,128 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: ` Test draft mode nesting.
+2015-08-12 11:10:08,129 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: test_60_cache (openerp.addons.base.tests.test_api.TestAPI)
+2015-08-12 11:10:08,129 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: ` Check the record cache behavior
+2015-08-12 11:10:08,519 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: test_60_cache_prefetching (openerp.addons.base.tests.test_api.TestAPI)
+2015-08-12 11:10:08,519 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: ` Check the record cache prefetching
+2015-08-12 11:10:08,561 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: test_70_one (openerp.addons.base.tests.test_api.TestAPI)
+2015-08-12 11:10:08,561 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: ` Check method one().
+2015-08-12 11:10:08,563 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: test_80_contains (openerp.addons.base.tests.test_api.TestAPI)
+2015-08-12 11:10:08,563 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: ` Test membership on recordset.
+2015-08-12 11:10:08,565 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: test_80_filter (openerp.addons.base.tests.test_api.TestAPI)
+2015-08-12 11:10:08,565 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: ` Check filter on recordsets.
+2015-08-12 11:10:08,647 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: test_80_map (openerp.addons.base.tests.test_api.TestAPI)
+2015-08-12 11:10:08,647 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: ` Check map on recordsets.
+2015-08-12 11:10:08,692 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: test_80_set_operations (openerp.addons.base.tests.test_api.TestAPI)
+2015-08-12 11:10:08,693 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: ` Check set operations on recordsets.
+2015-08-12 11:10:08,776 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: Ran 22 tests in 0.958s
+2015-08-12 11:10:08,777 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_api: OK
+2015-08-12 11:10:08,778 18399 INFO 00005-master-be6d09-base openerp.modules.module: openerp.addons.base.tests.test_base running tests.
+2015-08-12 11:10:08,778 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_base: test_00_setup (openerp.addons.base.tests.test_base.TestPhaseInstall00)
+2015-08-12 11:10:08,778 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_base: test_02_check (openerp.addons.base.tests.test_base.TestPhaseInstall00)
+2015-08-12 11:10:08,778 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_base: test_set_run (openerp.addons.base.tests.test_base.TestPhaseInstall01)
+2015-08-12 11:10:08,778 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_base: test_check_state (openerp.addons.base.tests.test_base.TestPhaseInstall02)
+2015-08-12 11:10:08,778 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_base: test_00_res_partner_name_create (openerp.addons.base.tests.test_base.test_base)
+2015-08-12 11:10:08,831 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_base: test_10_res_partner_find_or_create (openerp.addons.base.tests.test_base.test_base)
+2015-08-12 11:10:08,896 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_base: test_15_res_partner_name_search (openerp.addons.base.tests.test_base.test_base)
+2015-08-12 11:10:08,957 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_base: test_20_res_partner_address_sync (openerp.addons.base.tests.test_base.test_base)
+2015-08-12 11:10:09,033 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_base: test_30_res_partner_first_contact_sync (openerp.addons.base.tests.test_base.test_base)
+2015-08-12 11:10:09,033 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_base: ` Test initial creation of company/contact pair where contact address gets copied to
+2015-08-12 11:10:09,084 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_base: test_40_res_partner_address_getc (openerp.addons.base.tests.test_base.test_base)
+2015-08-12 11:10:09,084 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_base: ` Test address_get address resolution mechanism: it should first go down through descendants,
+2015-08-12 11:10:09,284 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_base: test_50_res_partner_commercial_sync (openerp.addons.base.tests.test_base.test_base)
+2015-08-12 11:10:09,516 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_base: test_60_read_group (openerp.addons.base.tests.test_base.test_base)
+2015-08-12 11:10:09,957 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_base: test_101_res_partner_recursion (openerp.addons.base.tests.test_base.test_partner_recursion)
+2015-08-12 11:10:10,013 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_base: test_102_res_partner_recursion (openerp.addons.base.tests.test_base.test_partner_recursion)
+2015-08-12 11:10:10,073 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_base: test_103_res_partner_recursion (openerp.addons.base.tests.test_base.test_partner_recursion)
+2015-08-12 11:10:10,126 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_base: test_104_res_partner_recursion_indirect_cycle (openerp.addons.base.tests.test_base.test_partner_recursion)
+2015-08-12 11:10:10,126 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_base: ` Indirect hacky write to create cycle in children
+2015-08-12 11:10:10,225 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_base: test_110_res_partner_recursion_multi_update (openerp.addons.base.tests.test_base.test_partner_recursion)
+2015-08-12 11:10:10,225 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_base: ` multi-write on several partners in same hierarchy must not trigger a false cycle detection
+2015-08-12 11:10:10,278 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_base: test_101_create_translated_record (openerp.addons.base.tests.test_base.test_translation)
+2015-08-12 11:10:10,279 18399 INFO 00005-master-be6d09-base openerp.addons.base.ir.ir_translation: module base: loading translation file (fr) for language fr_FR
+2015-08-12 11:10:10,279 18399 INFO 00005-master-be6d09-base openerp.tools.translate: loading /home/bista/ws/odoo_git/addons/runbot/static/build/00005-master-be6d09/openerp/addons/base/i18n/fr.po
+2015-08-12 11:10:10,280 18399 WARNING 00005-master-be6d09-base openerp.addons.base.res.res_lang: Unable to get information for locale fr_FR. Information from the default locale (en_IN) have been used.
+2015-08-12 11:10:11,174 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_base: test_102_duplicate_record (openerp.addons.base.tests.test_base.test_translation)
+2015-08-12 11:10:11,174 18399 INFO 00005-master-be6d09-base openerp.addons.base.ir.ir_translation: module base: loading translation file (fr) for language fr_FR
+2015-08-12 11:10:11,175 18399 INFO 00005-master-be6d09-base openerp.tools.translate: loading /home/bista/ws/odoo_git/addons/runbot/static/build/00005-master-be6d09/openerp/addons/base/i18n/fr.po
+2015-08-12 11:10:11,176 18399 WARNING 00005-master-be6d09-base openerp.addons.base.res.res_lang: Unable to get information for locale fr_FR. Information from the default locale (en_IN) have been used.
+2015-08-12 11:10:12,133 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_base: test_103_duplicate_record_fr (openerp.addons.base.tests.test_base.test_translation)
+2015-08-12 11:10:12,134 18399 INFO 00005-master-be6d09-base openerp.addons.base.ir.ir_translation: module base: loading translation file (fr) for language fr_FR
+2015-08-12 11:10:12,134 18399 INFO 00005-master-be6d09-base openerp.tools.translate: loading /home/bista/ws/odoo_git/addons/runbot/static/build/00005-master-be6d09/openerp/addons/base/i18n/fr.po
+2015-08-12 11:10:12,135 18399 WARNING 00005-master-be6d09-base openerp.addons.base.res.res_lang: Unable to get information for locale fr_FR. Information from the default locale (en_IN) have been used.
+2015-08-12 11:10:13,074 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_base: Ran 20 tests in 4.296s
+2015-08-12 11:10:13,074 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_base: OK
+2015-08-12 11:10:13,075 18399 INFO 00005-master-be6d09-base openerp.modules.module: openerp.addons.base.tests.test_basecase running tests.
+2015-08-12 11:10:13,076 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_basecase: test_00 (openerp.addons.base.tests.test_basecase.test_single_transaction_case)
+2015-08-12 11:10:13,076 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_basecase: ` Create a partner.
+2015-08-12 11:10:13,090 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_basecase: test_01 (openerp.addons.base.tests.test_basecase.test_single_transaction_case)
+2015-08-12 11:10:13,090 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_basecase: ` Find the created partner.
+2015-08-12 11:10:13,091 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_basecase: test_20a (openerp.addons.base.tests.test_basecase.test_single_transaction_case)
+2015-08-12 11:10:13,091 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_basecase: ` Create a partner with a XML ID
+2015-08-12 11:10:13,107 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_basecase: test_20b (openerp.addons.base.tests.test_basecase.test_single_transaction_case)
+2015-08-12 11:10:13,107 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_basecase: ` Resolve xml id with ref() and browse_ref()
+2015-08-12 11:10:13,109 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_basecase: test_00 (openerp.addons.base.tests.test_basecase.test_transaction_case)
+2015-08-12 11:10:13,109 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_basecase: ` Create a partner.
+2015-08-12 11:10:13,123 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_basecase: test_01 (openerp.addons.base.tests.test_basecase.test_transaction_case)
+2015-08-12 11:10:13,123 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_basecase: ` Don't find the created partner.
+2015-08-12 11:10:13,124 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_basecase: test_20a (openerp.addons.base.tests.test_basecase.test_transaction_case)
+2015-08-12 11:10:13,125 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_basecase: ` Create a partner with a XML ID then resolve xml id with ref() and browse_ref()
+2015-08-12 11:10:13,140 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_basecase: Ran 7 tests in 0.065s
+2015-08-12 11:10:13,140 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_basecase: OK
+2015-08-12 11:10:13,140 18399 INFO 00005-master-be6d09-base openerp.modules.module: openerp.addons.base.tests.test_db_cursor running tests.
+2015-08-12 11:10:13,141 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_db_cursor: test_execute_bad_params (openerp.addons.base.tests.test_db_cursor.test_cr_execute)
+2015-08-12 11:10:13,141 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_db_cursor: Ran 1 test in 0.001s
+2015-08-12 11:10:13,141 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_db_cursor: OK
+2015-08-12 11:10:13,142 18399 INFO 00005-master-be6d09-base openerp.modules.module: openerp.addons.base.tests.test_expression running tests.
+2015-08-12 11:10:13,142 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_expression: test_00_in_not_in_m2m (openerp.addons.base.tests.test_expression.test_expression)
+2015-08-12 11:10:13,205 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_expression: test_10_expression_parse (openerp.addons.base.tests.test_expression.test_expression)
+2015-08-12 11:10:13,423 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_expression: test_20_auto_join (openerp.addons.base.tests.test_expression.test_expression)
+2015-08-12 11:10:13,543 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_expression: test_30_normalize_domain (openerp.addons.base.tests.test_expression.test_expression)
+2015-08-12 11:10:13,544 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_expression: test_translate_search (openerp.addons.base.tests.test_expression.test_expression)
+2015-08-12 11:10:13,550 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_expression: Ran 5 tests in 0.409s
+2015-08-12 11:10:13,551 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_expression: OK
+2015-08-12 11:10:13,551 18399 INFO 00005-master-be6d09-base openerp.modules.module: openerp.addons.base.tests.test_func running tests.
+2015-08-12 11:10:13,551 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_func: test_basic (openerp.addons.base.tests.test_func.TestCompose)
+2015-08-12 11:10:13,551 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_func: test_decorator (openerp.addons.base.tests.test_func.TestCompose)
+2015-08-12 11:10:13,551 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_func: ` ensure compose() can be partially applied as a decorator
+2015-08-12 11:10:13,551 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_func: Ran 2 tests in 0.000s
+2015-08-12 11:10:13,552 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_func: OK
+2015-08-12 11:10:13,552 18399 INFO 00005-master-be6d09-base openerp.modules.module: openerp.addons.base.tests.test_ir_actions running tests.
+2015-08-12 11:10:13,552 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_actions: test_00_action (openerp.addons.base.tests.test_ir_actions.TestServerActions)
+2015-08-12 11:10:13,626 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_actions: test_10_code (openerp.addons.base.tests.test_ir_actions.TestServerActions)
+2015-08-12 11:10:13,676 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_actions: test_20_trigger (openerp.addons.base.tests.test_ir_actions.TestServerActions)
+2015-08-12 11:10:13,793 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_actions: test_30_client (openerp.addons.base.tests.test_ir_actions.TestServerActions)
+2015-08-12 11:10:13,829 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_actions: test_40_crud_create (openerp.addons.base.tests.test_ir_actions.TestServerActions)
+2015-08-12 11:10:14,015 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_actions: test_50_crud_write (openerp.addons.base.tests.test_ir_actions.TestServerActions)
+2015-08-12 11:10:14,104 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_actions: test_60_multi (openerp.addons.base.tests.test_ir_actions.TestServerActions)
+2015-08-12 11:10:14,189 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_actions: Ran 7 tests in 0.636s
+2015-08-12 11:10:14,189 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_actions: OK
+2015-08-12 11:10:14,189 18399 INFO 00005-master-be6d09-base openerp.modules.module: openerp.addons.base.tests.test_ir_attachment running tests.
+2015-08-12 11:10:14,189 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_attachment: test_01_store_in_db (openerp.addons.base.tests.test_ir_attachment.test_ir_attachment)
+2015-08-12 11:10:14,208 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_attachment: test_02_store_on_disk (openerp.addons.base.tests.test_ir_attachment.test_ir_attachment)
+2015-08-12 11:10:14,218 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_attachment: test_03_no_duplication (openerp.addons.base.tests.test_ir_attachment.test_ir_attachment)
+2015-08-12 11:10:14,236 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_attachment: test_04_keep_file (openerp.addons.base.tests.test_ir_attachment.test_ir_attachment)
+2015-08-12 11:10:14,261 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_attachment: test_05_change_data_change_file (openerp.addons.base.tests.test_ir_attachment.test_ir_attachment)
+2015-08-12 11:10:14,276 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_attachment: Ran 5 tests in 0.086s
+2015-08-12 11:10:14,276 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_attachment: OK
+2015-08-12 11:10:14,276 18399 INFO 00005-master-be6d09-base openerp.modules.module: openerp.addons.base.tests.test_ir_filters running tests.
+2015-08-12 11:10:14,277 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_filters: test_global_filters (openerp.addons.base.tests.test_ir_filters.TestGetFilters)
+2015-08-12 11:10:14,298 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_filters: test_no_third_party_filters (openerp.addons.base.tests.test_ir_filters.TestGetFilters)
+2015-08-12 11:10:14,311 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_filters: test_own_filters (openerp.addons.base.tests.test_ir_filters.TestGetFilters)
+2015-08-12 11:10:14,325 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_filters: test_new_filter_existing_default (openerp.addons.base.tests.test_ir_filters.TestGlobalDefaults)
+2015-08-12 11:10:14,334 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_filters: test_new_filter_not_default (openerp.addons.base.tests.test_ir_filters.TestGlobalDefaults)
+2015-08-12 11:10:14,352 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_filters: test_update_default_filter (openerp.addons.base.tests.test_ir_filters.TestGlobalDefaults)
+2015-08-12 11:10:14,372 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_filters: test_update_filter_set_default (openerp.addons.base.tests.test_ir_filters.TestGlobalDefaults)
+2015-08-12 11:10:14,381 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_filters: test_new_filter_existing_default (openerp.addons.base.tests.test_ir_filters.TestOwnDefaults)
+2015-08-12 11:10:14,399 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_filters: test_new_filter_not_default (openerp.addons.base.tests.test_ir_filters.TestOwnDefaults)
+2015-08-12 11:10:14,413 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_filters: test_new_no_filter (openerp.addons.base.tests.test_ir_filters.TestOwnDefaults)
+2015-08-12 11:10:14,424 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_filters: test_update_filter_set_default (openerp.addons.base.tests.test_ir_filters.TestOwnDefaults)
+2015-08-12 11:10:14,442 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_filters: Ran 11 tests in 0.165s
+2015-08-12 11:10:14,442 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_filters: OK
+2015-08-12 11:10:14,443 18399 INFO 00005-master-be6d09-base openerp.modules.module: openerp.addons.base.tests.test_ir_sequence running tests.
+2015-08-12 11:10:14,443 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_sequence: test_00 (openerp.addons.base.tests.test_ir_sequence.Test_ir_sequence_init)
+2015-08-12 11:10:14,463 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_sequence: test_ir_sequence_1_create (openerp.addons.base.tests.test_ir_sequence.test_ir_sequence_change_implementation)
+2015-08-12 11:10:14,463 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_sequence: ` Try to create a sequence object.
+2015-08-12 11:10:14,481 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_sequence: test_ir_sequence_2_write (openerp.addons.base.tests.test_ir_sequence.test_ir_sequence_change_implementation)
+2015-08-12 11:10:14,492 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_sequence: test_ir_sequence_3_unlink (openerp.addons.base.tests.test_ir_sequence.test_ir_sequence_change_implementation)
+2015-08-12 11:10:14,525 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_sequence: test_ir_sequence_create (openerp.addons.base.tests.test_ir_sequence.test_ir_sequence_generate)
+2015-08-12 11:10:14,525 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_sequence: ` Try to create a sequence object.
+2015-08-12 11:10:14,558 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_sequence: test_ir_sequence_create_no_gap (openerp.addons.base.tests.test_ir_sequence.test_ir_sequence_generate)
+2015-08-12 11:10:14,558 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_sequence: ` Try to create a sequence object.
+2015-08-12 11:10:14,669 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_sequence: test_ir_sequence_create_no_gap (openerp.addons.base.tests.test_ir_sequence.test_ir_sequence_no_gap)
+2015-08-12 11:10:14,670 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_sequence: ` Try to create a sequence object.
+2015-08-12 11:10:14,691 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_sequence: test_ir_sequence_draw_no_gap (openerp.addons.base.tests.test_ir_sequence.test_ir_sequence_no_gap)
+2015-08-12 11:10:14,692 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_sequence: ` Try to draw a number.
+2015-08-12 11:10:14,702 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_sequence: test_ir_sequence_draw_twice_no_gap (openerp.addons.base.tests.test_ir_sequence.test_ir_sequence_no_gap)
+2015-08-12 11:10:14,702 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_sequence: ` Try to draw a number from two transactions.
+2015-08-12 11:10:14,747 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_sequence: test_ir_sequence_create (openerp.addons.base.tests.test_ir_sequence.test_ir_sequence_standard)
+2015-08-12 11:10:14,747 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_sequence: ` Try to create a sequence object.
+2015-08-12 11:10:14,769 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_sequence: test_ir_sequence_draw (openerp.addons.base.tests.test_ir_sequence.test_ir_sequence_standard)
+2015-08-12 11:10:14,769 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_sequence: ` Try to draw a number.
+2015-08-12 11:10:14,780 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_sequence: test_ir_sequence_draw_twice (openerp.addons.base.tests.test_ir_sequence.test_ir_sequence_standard)
+2015-08-12 11:10:14,780 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_sequence: ` Try to draw a number from two transactions.
+2015-08-12 11:10:14,789 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_sequence: test_ir_sequence_search (openerp.addons.base.tests.test_ir_sequence.test_ir_sequence_standard)
+2015-08-12 11:10:14,790 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_sequence: ` Try a search.
+2015-08-12 11:10:14,802 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_sequence: Ran 13 tests in 0.359s
+2015-08-12 11:10:14,802 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_sequence: OK
+2015-08-12 11:10:14,803 18399 INFO 00005-master-be6d09-base openerp.modules.module: openerp.addons.base.tests.test_ir_values running tests.
+2015-08-12 11:10:14,803 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_values: test_00 (openerp.addons.base.tests.test_ir_values.test_ir_values)
+2015-08-12 11:10:14,871 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_values: Ran 1 test in 0.068s
+2015-08-12 11:10:14,871 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_ir_values: OK
+2015-08-12 11:10:14,872 18399 INFO 00005-master-be6d09-base openerp.modules.module: openerp.addons.base.tests.test_mail running tests.
+2015-08-12 11:10:14,872 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_mail: test_00_basic_text (openerp.addons.base.tests.test_mail.TestCleaner)
+2015-08-12 11:10:14,872 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_mail: ` html_email_clean test for signatures
+2015-08-12 11:10:14,875 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_mail: test_05_shorten (openerp.addons.base.tests.test_mail.TestCleaner)
+2015-08-12 11:10:14,878 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_mail: test_10_email_text (openerp.addons.base.tests.test_mail.TestCleaner)
+2015-08-12 11:10:14,879 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_mail: ` html_email_clean test for text-based emails
+2015-08-12 11:10:14,880 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_mail: test_20_email_html (openerp.addons.base.tests.test_mail.TestCleaner)
+2015-08-12 11:10:14,881 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_mail: test_30_email_msoffice (openerp.addons.base.tests.test_mail.TestCleaner)
+2015-08-12 11:10:14,899 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_mail: test_40_email_hotmail (openerp.addons.base.tests.test_mail.TestCleaner)
+2015-08-12 11:10:14,901 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_mail: test_50_email_gmail (openerp.addons.base.tests.test_mail.TestCleaner)
+2015-08-12 11:10:14,902 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_mail: test_60_email_thunderbird (openerp.addons.base.tests.test_mail.TestCleaner)
+2015-08-12 11:10:14,904 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_mail: test_70_read_more (openerp.addons.base.tests.test_mail.TestCleaner)
+2015-08-12 11:10:14,922 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_mail: test_70_read_more_and_shorten (openerp.addons.base.tests.test_mail.TestCleaner)
+2015-08-12 11:10:14,932 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_mail: test_90_misc (openerp.addons.base.tests.test_mail.TestCleaner)
+2015-08-12 11:10:14,933 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_mail: test_email_split (openerp.addons.base.tests.test_mail.TestEmailTools)
+2015-08-12 11:10:14,933 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_mail: test_append_to_html (openerp.addons.base.tests.test_mail.TestHtmlTools)
+2015-08-12 11:10:14,934 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_mail: test_plaintext2html (openerp.addons.base.tests.test_mail.TestHtmlTools)
+2015-08-12 11:10:14,934 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_mail: test_basic_sanitizer (openerp.addons.base.tests.test_mail.TestSanitizer)
+2015-08-12 11:10:14,935 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_mail: test_edi_source (openerp.addons.base.tests.test_mail.TestSanitizer)
+2015-08-12 11:10:14,937 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_mail: test_evil_malicious_code (openerp.addons.base.tests.test_mail.TestSanitizer)
+2015-08-12 11:10:14,946 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_mail: test_html (openerp.addons.base.tests.test_mail.TestSanitizer)
+2015-08-12 11:10:14,949 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_mail: test_mako (openerp.addons.base.tests.test_mail.TestSanitizer)
+2015-08-12 11:10:14,949 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_mail: Ran 19 tests in 0.078s
+2015-08-12 11:10:14,949 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_mail: OK
+2015-08-12 11:10:14,950 18399 INFO 00005-master-be6d09-base openerp.modules.module: openerp.addons.base.tests.test_menu running tests.
+2015-08-12 11:10:14,950 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_menu: test_00_menu_deletion (openerp.addons.base.tests.test_menu.test_menu)
+2015-08-12 11:10:14,950 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_menu: ` Verify that menu deletion works properly when there are child menus, and those
+2015-08-12 11:10:14,984 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_menu: Ran 1 test in 0.034s
+2015-08-12 11:10:14,984 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_menu: OK
+2015-08-12 11:10:14,985 18399 INFO 00005-master-be6d09-base openerp.modules.module: openerp.addons.base.tests.test_orm running tests.
+2015-08-12 11:10:14,986 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: test_copy (openerp.addons.base.tests.test_orm.TestInherits)
+2015-08-12 11:10:14,986 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: ` copying a user should automatically copy its partner, too
+2015-08-12 11:10:15,222 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: test_copy_with_ancestor (openerp.addons.base.tests.test_orm.TestInherits)
+2015-08-12 11:10:15,222 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: ` copying a user with 'parent_id' in defaults should not duplicate the partner
+2015-08-12 11:10:15,457 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: test_create (openerp.addons.base.tests.test_orm.TestInherits)
+2015-08-12 11:10:15,457 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: ` creating a user should automatically create a new partner
+2015-08-12 11:10:15,528 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: test_create_with_ancestor (openerp.addons.base.tests.test_orm.TestInherits)
+2015-08-12 11:10:15,528 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: ` creating a user with a specific 'partner_id' should not create a new partner
+2015-08-12 11:10:15,551 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: test_default (openerp.addons.base.tests.test_orm.TestInherits)
+2015-08-12 11:10:15,551 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: ` `default_get` cannot return a dictionary or a new id
+2015-08-12 11:10:15,552 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: test_read (openerp.addons.base.tests.test_orm.TestInherits)
+2015-08-12 11:10:15,552 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: ` inherited fields should be read without any indirection
+2015-08-12 11:10:15,664 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: test_CREATE_commands (openerp.addons.base.tests.test_orm.TestO2MSerialization)
+2015-08-12 11:10:15,665 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: ` returns the VALUES dict as-is
+2015-08-12 11:10:15,666 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: test_DELETE_command (openerp.addons.base.tests.test_orm.TestO2MSerialization)
+2015-08-12 11:10:15,666 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: ` deleted records are not returned at all.
+2015-08-12 11:10:15,704 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: test_LINK_TO_command (openerp.addons.base.tests.test_orm.TestO2MSerialization)
+2015-08-12 11:10:15,704 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: ` reads the records from the database, records are returned with their ids.
+2015-08-12 11:10:15,744 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: test_LINK_TO_pairs (openerp.addons.base.tests.test_orm.TestO2MSerialization)
+2015-08-12 11:10:15,744 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: ` LINK_TO commands can be written as pairs, instead of triplets
+2015-08-12 11:10:15,783 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: test_UPDATE_command (openerp.addons.base.tests.test_orm.TestO2MSerialization)
+2015-08-12 11:10:15,784 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: ` take the in-db records and merge the provided information in
+2015-08-12 11:10:15,823 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: test_bare_ids_command (openerp.addons.base.tests.test_orm.TestO2MSerialization)
+2015-08-12 11:10:15,823 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: ` same as the equivalent LINK_TO commands
+2015-08-12 11:10:15,860 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: test_mixed_commands (openerp.addons.base.tests.test_orm.TestO2MSerialization)
+2015-08-12 11:10:15,934 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: test_no_command (openerp.addons.base.tests.test_orm.TestO2MSerialization)
+2015-08-12 11:10:15,935 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: ` empty list of commands yields an empty list of records
+2015-08-12 11:10:15,936 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: test_singleton_commands (openerp.addons.base.tests.test_orm.TestO2MSerialization)
+2015-08-12 11:10:15,936 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: ` DELETE_ALL can appear as a singleton
+2015-08-12 11:10:15,936 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: testAccessDeletedRecords (openerp.addons.base.tests.test_orm.TestORM)
+2015-08-12 11:10:15,936 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: ` Verify that accessing deleted records works as expected
+2015-08-12 11:10:16,074 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: testAccessFilteredRecords (openerp.addons.base.tests.test_orm.TestORM)
+2015-08-12 11:10:16,075 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: ` Verify that accessing filtered records works as expected for non-admin user
+2015-08-12 11:10:16,259 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: test_exists (openerp.addons.base.tests.test_orm.TestORM)
+2015-08-12 11:10:16,374 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: test_groupby_date (openerp.addons.base.tests.test_orm.TestORM)
+2015-08-12 11:10:16,574 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: test_multi_read (openerp.addons.base.tests.test_orm.TestORM)
+2015-08-12 11:10:16,697 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: test_one_read (openerp.addons.base.tests.test_orm.TestORM)
+2015-08-12 11:10:16,818 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: test_search_read (openerp.addons.base.tests.test_orm.TestORM)
+2015-08-12 11:10:16,957 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: Ran 22 tests in 1.971s
+2015-08-12 11:10:16,957 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_orm: OK
+2015-08-12 11:10:16,957 18399 INFO 00005-master-be6d09-base openerp.modules.module: openerp.addons.base.tests.test_osv running tests.
+2015-08-12 11:10:16,957 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_osv: test_basic_query (openerp.addons.base.tests.test_osv.QueryTestCase)
+2015-08-12 11:10:16,958 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_osv: test_mixed_query_chained_explicit_implicit_joins (openerp.addons.base.tests.test_osv.QueryTestCase)
+2015-08-12 11:10:16,958 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_osv: test_query_chained_explicit_joins (openerp.addons.base.tests.test_osv.QueryTestCase)
+2015-08-12 11:10:16,958 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_osv: test_raise_missing_lhs (openerp.addons.base.tests.test_osv.QueryTestCase)
+2015-08-12 11:10:16,958 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_osv: Ran 4 tests in 0.001s
+2015-08-12 11:10:16,958 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_osv: OK
+2015-08-12 11:10:16,961 18399 INFO 00005-master-be6d09-base openerp.modules.module: openerp.addons.base.tests.test_qweb running tests.
+2015-08-12 11:10:16,961 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_qweb: test_i18n (openerp.addons.base.tests.test_qweb.TestQWebTField)
+2015-08-12 11:10:16,990 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_qweb: test_reject_crummy_tags (openerp.addons.base.tests.test_qweb.TestQWebTField)
+2015-08-12 11:10:16,991 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_qweb: test_reject_t_tag (openerp.addons.base.tests.test_qweb.TestQWebTField)
+2015-08-12 11:10:16,992 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_qweb: test_trivial (openerp.addons.base.tests.test_qweb.TestQWebTField)
+2015-08-12 11:10:17,019 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_qweb: test_qweb_conditionals (openerp.addons.base.tests.test_qweb.TestQWeb)
+2015-08-12 11:10:17,021 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_qweb: test_qweb_set (openerp.addons.base.tests.test_qweb.TestQWeb)
+2015-08-12 11:10:17,023 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_qweb: test_qweb_call (openerp.addons.base.tests.test_qweb.TestQWeb)
+2015-08-12 11:10:17,026 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_qweb: test_qweb_foreach (openerp.addons.base.tests.test_qweb.TestQWeb)
+2015-08-12 11:10:17,032 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_qweb: test_qweb_output (openerp.addons.base.tests.test_qweb.TestQWeb)
+2015-08-12 11:10:17,034 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_qweb: test_qweb_attributes (openerp.addons.base.tests.test_qweb.TestQWeb)
+2015-08-12 11:10:17,038 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_qweb: Ran 10 tests in 0.077s
+2015-08-12 11:10:17,038 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_qweb: OK
+2015-08-12 11:10:17,038 18399 INFO 00005-master-be6d09-base openerp.modules.module: openerp.addons.base.tests.test_res_config running tests.
+2015-08-12 11:10:17,038 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_res_config: test_00_get_option_path (openerp.addons.base.tests.test_res_config.test_res_config)
+2015-08-12 11:10:17,038 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_res_config: ` The get_option_path() method should return a tuple containing a string and an integer
+2015-08-12 11:10:17,048 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_res_config: test_10_get_option_name (openerp.addons.base.tests.test_res_config.test_res_config)
+2015-08-12 11:10:17,048 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_res_config: ` The get_option_name() method should return a string
+2015-08-12 11:10:17,057 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_res_config: test_20_get_config_warning (openerp.addons.base.tests.test_res_config.test_res_config)
+2015-08-12 11:10:17,057 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_res_config: ` The get_config_warning() method should return a RedirectWarning
+2015-08-12 11:10:17,066 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_res_config: test_30_get_config_warning_wo_menu (openerp.addons.base.tests.test_res_config.test_res_config)
+2015-08-12 11:10:17,066 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_res_config: ` The get_config_warning() method should return a Warning exception
+2015-08-12 11:10:17,075 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_res_config: Ran 4 tests in 0.036s
+2015-08-12 11:10:17,075 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_res_config: OK
+2015-08-12 11:10:17,075 18399 INFO 00005-master-be6d09-base openerp.modules.module: openerp.addons.base.tests.test_res_lang running tests.
+2015-08-12 11:10:17,075 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_res_lang: test_00_intersperse (openerp.addons.base.tests.test_res_lang.test_res_lang)
+2015-08-12 11:10:17,076 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_res_lang: Ran 1 test in 0.001s
+2015-08-12 11:10:17,076 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_res_lang: OK
+2015-08-12 11:10:17,077 18399 INFO 00005-master-be6d09-base openerp.modules.module: openerp.addons.base.tests.test_search running tests.
+2015-08-12 11:10:17,077 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_search: test_00_search_order (openerp.addons.base.tests.test_search.test_search)
+2015-08-12 11:10:17,158 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_search: test_10_inherits_m2order (openerp.addons.base.tests.test_search.test_search)
+2015-08-12 11:10:17,469 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_search: Ran 2 tests in 0.393s
+2015-08-12 11:10:17,470 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_search: OK
+2015-08-12 11:10:17,470 18399 INFO 00005-master-be6d09-base openerp.modules.module: openerp.addons.base.tests.test_translate running tests.
+2015-08-12 11:10:17,470 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_translate: test_quote_unquote (openerp.addons.base.tests.test_translate.TranslationToolsTestCase)
+2015-08-12 11:10:17,470 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_translate: Ran 1 test in 0.000s
+2015-08-12 11:10:17,470 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_translate: OK
+2015-08-12 11:10:17,471 18399 INFO 00005-master-be6d09-base openerp.modules.module: openerp.addons.base.tests.test_view_validation running tests.
+2015-08-12 11:10:17,471 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_view_validation: test_all_field_validation (openerp.addons.base.tests.test_view_validation.test_view_validation)
+2015-08-12 11:10:17,471 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_view_validation: test_all_label_validation (openerp.addons.base.tests.test_view_validation.test_view_validation)
+2015-08-12 11:10:17,471 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_view_validation: test_col_datatype_validation (openerp.addons.base.tests.test_view_validation.test_view_validation)
+2015-08-12 11:10:17,471 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_view_validation: test_colspan_datatype_validation (openerp.addons.base.tests.test_view_validation.test_view_validation)
+2015-08-12 11:10:17,472 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_view_validation: test_form_string_validation (openerp.addons.base.tests.test_view_validation.test_view_validation)
+2015-08-12 11:10:17,472 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_view_validation: test_graph_validation (openerp.addons.base.tests.test_view_validation.test_view_validation)
+2015-08-12 11:10:17,472 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_view_validation: test_page_validation (openerp.addons.base.tests.test_view_validation.test_view_validation)
+2015-08-12 11:10:17,472 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_view_validation: test_tree_validation (openerp.addons.base.tests.test_view_validation.test_view_validation)
+2015-08-12 11:10:17,472 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_view_validation: Ran 8 tests in 0.002s
+2015-08-12 11:10:17,472 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_view_validation: OK
+2015-08-12 11:10:17,475 18399 INFO 00005-master-be6d09-base openerp.modules.module: openerp.addons.base.tests.test_views running tests.
+2015-08-12 11:10:17,476 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: test_delete (openerp.addons.base.tests.test_views.TestApplyInheritanceSpecs)
+2015-08-12 11:10:17,477 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: test_incorrect_version (openerp.addons.base.tests.test_views.TestApplyInheritanceSpecs)
+2015-08-12 11:10:17,482 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: test_insert_after (openerp.addons.base.tests.test_views.TestApplyInheritanceSpecs)
+2015-08-12 11:10:17,483 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: test_insert_before (openerp.addons.base.tests.test_views.TestApplyInheritanceSpecs)
+2015-08-12 11:10:17,483 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: test_insert_inside (openerp.addons.base.tests.test_views.TestApplyInheritanceSpecs)
+2015-08-12 11:10:17,484 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: test_invalid_position (openerp.addons.base.tests.test_views.TestApplyInheritanceSpecs)
+2015-08-12 11:10:17,485 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: test_replace (openerp.addons.base.tests.test_views.TestApplyInheritanceSpecs)
+2015-08-12 11:10:17,486 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: test_target_not_found (openerp.addons.base.tests.test_views.TestApplyInheritanceSpecs)
+2015-08-12 11:10:17,486 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: test_unpack_data (openerp.addons.base.tests.test_views.TestApplyInheritanceSpecs)
+2015-08-12 11:10:17,487 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: testDefaultViewBase (openerp.addons.base.tests.test_views.TestDefaultView)
+2015-08-12 11:10:17,505 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: testDefaultViewPrimary (openerp.addons.base.tests.test_views.TestDefaultView)
+2015-08-12 11:10:17,533 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: test_create_view_nomodel (openerp.addons.base.tests.test_views.TestNoModel)
+2015-08-12 11:10:17,542 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: test_qweb_translation (openerp.addons.base.tests.test_views.TestNoModel)
+2015-08-12 11:10:17,543 18399 WARNING 00005-master-be6d09-base openerp.addons.base.res.res_lang: Unable to get information for locale fr_FR. Information from the default locale (en_IN) have been used.
+2015-08-12 11:10:17,564 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: test_attribute_filter (openerp.addons.base.tests.test_views.TestNodeLocator)
+2015-08-12 11:10:17,565 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: test_attribute_mismatch (openerp.addons.base.tests.test_views.TestNodeLocator)
+2015-08-12 11:10:17,566 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: test_match_field (openerp.addons.base.tests.test_views.TestNodeLocator)
+2015-08-12 11:10:17,566 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: test_match_other (openerp.addons.base.tests.test_views.TestNodeLocator)
+2015-08-12 11:10:17,567 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: test_match_xpath (openerp.addons.base.tests.test_views.TestNodeLocator)
+2015-08-12 11:10:17,567 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: test_no_match_field (openerp.addons.base.tests.test_views.TestNodeLocator)
+2015-08-12 11:10:17,568 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: test_no_match_other (openerp.addons.base.tests.test_views.TestNodeLocator)
+2015-08-12 11:10:17,568 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: test_no_match_xpath (openerp.addons.base.tests.test_views.TestNodeLocator)
+2015-08-12 11:10:17,569 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: test_version_mismatch (openerp.addons.base.tests.test_views.TestNodeLocator)
+2015-08-12 11:10:17,570 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: test_applied (openerp.addons.base.tests.test_views.TestOptionalViews)
+2015-08-12 11:10:17,570 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: ` mandatory and enabled views should be applied
+2015-08-12 11:10:17,620 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: test_applied_state_toggle (openerp.addons.base.tests.test_views.TestOptionalViews)
+2015-08-12 11:10:17,620 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: ` Change active states of v2 and v3, check that the results
+2015-08-12 11:10:17,705 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: test_branding_distribute_inner (openerp.addons.base.tests.test_views.TestTemplating)
+2015-08-12 11:10:17,706 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: ` Checks that the branding is correctly distributed within a view
+2015-08-12 11:10:17,730 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: test_branding_inherit (openerp.addons.base.tests.test_views.TestTemplating)
+2015-08-12 11:10:17,753 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: test_esc_no_branding (openerp.addons.base.tests.test_views.TestTemplating)
+2015-08-12 11:10:17,764 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: test_ignore_unbrand (openerp.addons.base.tests.test_views.TestTemplating)
+2015-08-12 11:10:17,787 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: test_basic_read (openerp.addons.base.tests.test_views.TestViewCombined)
+2015-08-12 11:10:17,929 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: test_cross_model_double (openerp.addons.base.tests.test_views.TestViewCombined)
+2015-08-12 11:10:18,073 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: test_cross_model_simple (openerp.addons.base.tests.test_views.TestViewCombined)
+2015-08-12 11:10:18,221 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: test_read_from_child (openerp.addons.base.tests.test_views.TestViewCombined)
+2015-08-12 11:10:18,354 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: test_read_from_child_primary (openerp.addons.base.tests.test_views.TestViewCombined)
+2015-08-12 11:10:18,489 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: test_default_view (openerp.addons.base.tests.test_views.TestViewInheritance)
+2015-08-12 11:10:18,672 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: test_get_inheriting_views_arch (openerp.addons.base.tests.test_views.TestViewInheritance)
+2015-08-12 11:10:18,864 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: test_no_default_view (openerp.addons.base.tests.test_views.TestViewInheritance)
+2015-08-12 11:10:19,051 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: test_hasclass (openerp.addons.base.tests.test_views.TestXPathExtentions)
+2015-08-12 11:10:19,052 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: testDefaultExtensionToPrimary (openerp.addons.base.tests.test_views.ViewModeField)
+2015-08-12 11:10:19,073 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: testInheritPrimaryToExtension (openerp.addons.base.tests.test_views.ViewModeField)
+2015-08-12 11:10:19,095 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: testModeExplicit (openerp.addons.base.tests.test_views.ViewModeField)
+2015-08-12 11:10:19,115 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: testModeImplicitValue (openerp.addons.base.tests.test_views.ViewModeField)
+2015-08-12 11:10:19,115 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: ` mode is auto-generated from inherit_id:
+2015-08-12 11:10:19,134 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: testPurePrimaryToExtension (openerp.addons.base.tests.test_views.ViewModeField)
+2015-08-12 11:10:19,143 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: test_custom_view_validation (openerp.addons.base.tests.test_views.test_views)
+2015-08-12 11:10:19,174 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: test_nonexistent_attribute_removal (openerp.addons.base.tests.test_views.test_views)
+2015-08-12 11:10:19,189 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: test_view_inheritance (openerp.addons.base.tests.test_views.test_views)
+2015-08-12 11:10:19,234 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: test_view_inheritance_divergent_models (openerp.addons.base.tests.test_views.test_views)
+2015-08-12 11:10:19,275 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: Ran 46 tests in 1.800s
+2015-08-12 11:10:19,276 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_views: OK
+2015-08-12 11:10:19,384 18399 INFO 00005-master-be6d09-base openerp.modules.loading: 1 modules loaded in 77.41s, 19869 queries
+2015-08-12 11:10:19,589 18399 INFO 00005-master-be6d09-base openerp.modules.loading: updating modules list
+2015-08-12 11:10:21,059 18399 INFO ? openerp.addons.bus.bus: Bus.loop listen imbus on db postgres
+p2cread,===== None
+p2cwrite,===== None
+c2pread,,===== 14
+c2pwrite,,===== 15
+errread,,===== 16
+errwrite===== 17
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
+shell=========== False
+args======= ['/usr/bin/wkhtmltopdf', '--version']
+2015-08-12 11:10:22,124 18399 INFO 00005-master-be6d09-base openerp.addons.report.models.report: Will use the Wkhtmltopdf binary at /usr/bin/wkhtmltopdf
+2015-08-12 11:10:22,133 18399 INFO 00005-master-be6d09-base openerp.addons.report.models.report: Upgrade Wkhtmltopdf to (at least) 0.12.0
+2015-08-12 11:10:22,655 18399 INFO 00005-master-be6d09-base openerp.http: HTTP Configuring static files
+2015-08-12 11:10:23,840 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading 16 modules...
+2015-08-12 11:10:23,846 18399 INFO 00005-master-be6d09-base passlib.registry: registered crypt handler 'pbkdf2_sha512': <class 'passlib.handlers.pbkdf2.pbkdf2_sha512'>
+2015-08-12 11:10:23,847 18399 INFO 00005-master-be6d09-base passlib.registry: registered crypt handler 'md5_crypt': <class 'passlib.handlers.md5_crypt.md5_crypt'>
+2015-08-12 11:10:24,063 18399 INFO 00005-master-be6d09-base openerp.modules.module: module auth_crypt: creating or updating database tables
+2015-08-12 11:10:24,161 18399 INFO 00005-master-be6d09-base openerp.addons.auth_crypt.auth_crypt: Hashing passwords, may be slow for databases with many users...
+2015-08-12 11:10:24,845 18399 INFO 00005-master-be6d09-base openerp.modules.module: module web: creating or updating database tables
+2015-08-12 11:10:24,847 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading web/views/webclient_templates.xml
+2015-08-12 11:10:25,111 18399 INFO 00005-master-be6d09-base openerp.modules.module: openerp.addons.web.tests.test_js running tests.
+2015-08-12 11:10:25,112 18399 INFO 00005-master-be6d09-base openerp.addons.web.tests.test_js: test_01_js (openerp.addons.web.tests.test_js.WebSuite)
+2015-08-12 11:10:25,115 18399 INFO 00005-master-be6d09-base openerp.tests.common: phantom_run executing phantomjs /home/bista/ws/odoo_git/addons/runbot/static/build/00005-master-be6d09/openerp/tests/phantomtest.js {"password": "admin", "code": "", "timeout": 60, "ready": "", "login": "admin", "url_path": "/web/tests?mod=web", "db": "00005-master-be6d09-base", "port": 2000, "session_id": "ca3e724ae20844c4a62f6dee941f6a804663c694"}
+p2cread,===== None
+p2cwrite,===== None
+c2pread,,===== 11
+c2pwrite,,===== 12
+errread,,===== None
+errwrite===== None
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
+shell=========== False
+args======= ['phantomjs', '/home/bista/ws/odoo_git/addons/runbot/static/build/00005-master-be6d09/openerp/tests/phantomtest.js', '{"password": "admin", "code": "", "timeout": 60, "ready": "", "login": "admin", "url_path": "/web/tests?mod=web", "db": "00005-master-be6d09-base", "port": 2000, "session_id": "ca3e724ae20844c4a62f6dee941f6a804663c694"}']
+2015-08-12 11:10:25,123 18399 INFO 00005-master-be6d09-base openerp.addons.web.tests.test_js: skipped 'PhantomJS not found'
+2015-08-12 11:10:25,124 18399 INFO 00005-master-be6d09-base openerp.addons.web.tests.test_js: Ran 1 test in 0.012s
+2015-08-12 11:10:25,124 18399 INFO 00005-master-be6d09-base openerp.addons.web.tests.test_js: OK
+2015-08-12 11:10:25,124 18399 INFO 00005-master-be6d09-base openerp.addons.web.tests.test_js:  (skipped=1)
+2015-08-12 11:10:25,125 18399 INFO 00005-master-be6d09-base openerp.modules.module: openerp.addons.web.tests.test_menu running tests.
+2015-08-12 11:10:25,125 18399 INFO 00005-master-be6d09-base openerp.addons.web.tests.test_menu: test_actual_treeview (openerp.addons.web.tests.test_menu.ActionMungerTest)
+2015-08-12 11:10:25,125 18399 INFO 00005-master-be6d09-base openerp.addons.web.tests.test_menu: test_list_view (openerp.addons.web.tests.test_menu.ActionMungerTest)
+2015-08-12 11:10:25,125 18399 INFO 00005-master-be6d09-base openerp.addons.web.tests.test_menu: test_redundant_views (openerp.addons.web.tests.test_menu.ActionMungerTest)
+2015-08-12 11:10:25,125 18399 INFO 00005-master-be6d09-base openerp.addons.web.tests.test_menu: Ran 3 tests in 0.001s
+2015-08-12 11:10:25,126 18399 INFO 00005-master-be6d09-base openerp.addons.web.tests.test_menu: OK
+2015-08-12 11:10:25,126 18399 INFO 00005-master-be6d09-base openerp.modules.module: openerp.addons.web.tests.test_serving_base running tests.
+2015-08-12 11:10:25,126 18399 INFO 00005-master-be6d09-base openerp.addons.web.tests.test_serving_base: test_topological_sort (openerp.addons.web.tests.test_serving_base.TestModulesLoading)
+2015-08-12 11:10:25,220 18399 INFO 00005-master-be6d09-base openerp.addons.web.tests.test_serving_base: Ran 1 test in 0.094s
+2015-08-12 11:10:25,220 18399 INFO 00005-master-be6d09-base openerp.addons.web.tests.test_serving_base: OK
+2015-08-12 11:10:25,469 18399 INFO 00005-master-be6d09-base openerp.modules.module: module base_import: creating or updating database tables
+2015-08-12 11:10:28,270 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base_import/security/ir.model.access.csv
+2015-08-12 11:10:28,372 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading base_import/views/base_import.xml
+2015-08-12 11:10:28,424 18399 INFO 00005-master-be6d09-base openerp.modules.module: openerp.addons.base_import.tests.test_cases running tests.
+2015-08-12 11:10:28,425 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: test_base (openerp.addons.base_import.tests.test_cases.test_basic_fields)
+2015-08-12 11:10:28,425 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: ` A basic field is not required
+2015-08-12 11:10:28,438 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: test_m2o (openerp.addons.base_import.tests.test_cases.test_basic_fields)
+2015-08-12 11:10:28,438 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: ` M2O fields should allow import of themselves (name_get),
+2015-08-12 11:10:28,439 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: test_m2o_required (openerp.addons.base_import.tests.test_cases.test_basic_fields)
+2015-08-12 11:10:28,440 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: ` If an m2o field is required, its three sub-fields are
+2015-08-12 11:10:28,441 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: test_readonly (openerp.addons.base_import.tests.test_cases.test_basic_fields)
+2015-08-12 11:10:28,441 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: ` Readonly fields should be filtered out
+2015-08-12 11:10:28,442 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: test_readonly_states (openerp.addons.base_import.tests.test_cases.test_basic_fields)
+2015-08-12 11:10:28,442 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: ` Readonly fields with states should not be filtered out
+2015-08-12 11:10:28,443 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: test_readonly_states_noreadonly (openerp.addons.base_import.tests.test_cases.test_basic_fields)
+2015-08-12 11:10:28,443 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: ` Readonly fields with states having nothing to do with
+2015-08-12 11:10:28,444 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: test_readonly_states_stillreadonly (openerp.addons.base_import.tests.test_cases.test_basic_fields)
+2015-08-12 11:10:28,444 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: ` Readonly fields with readonly states leaving them readonly
+2015-08-12 11:10:28,445 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: test_required (openerp.addons.base_import.tests.test_cases.test_basic_fields)
+2015-08-12 11:10:28,445 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: ` Required fields should be flagged (so they can be fill-required)
+2015-08-12 11:10:28,446 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: test_all (openerp.addons.base_import.tests.test_cases.test_convert_import_data)
+2015-08-12 11:10:28,451 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: test_empty_rows (openerp.addons.base_import.tests.test_cases.test_convert_import_data)
+2015-08-12 11:10:28,454 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: test_falsefields (openerp.addons.base_import.tests.test_cases.test_convert_import_data)
+2015-08-12 11:10:28,456 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: test_filtered (openerp.addons.base_import.tests.test_cases.test_convert_import_data)
+2015-08-12 11:10:28,456 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: ` If ``False`` is provided as field mapping for a column,
+2015-08-12 11:10:28,458 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: test_nofield (openerp.addons.base_import.tests.test_cases.test_convert_import_data)
+2015-08-12 11:10:28,460 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: test_norow (openerp.addons.base_import.tests.test_cases.test_convert_import_data)
+2015-08-12 11:10:28,460 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: ` If a row is composed only of empty values (due to having
+2015-08-12 11:10:28,463 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: test_big_attachments (openerp.addons.base_import.tests.test_cases.test_failures)
+2015-08-12 11:10:29,302 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.models: importing 1 rows...
+2015-08-12 11:10:29,627 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.models: done
+2015-08-12 11:10:29,632 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: test_mixed (openerp.addons.base_import.tests.test_cases.test_match_headers_multiple)
+2015-08-12 11:10:29,633 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: test_noheaders (openerp.addons.base_import.tests.test_cases.test_match_headers_multiple)
+2015-08-12 11:10:29,634 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: test_nomatch (openerp.addons.base_import.tests.test_cases.test_match_headers_multiple)
+2015-08-12 11:10:29,634 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: test_match_by_name (openerp.addons.base_import.tests.test_cases.test_match_headers_single)
+2015-08-12 11:10:29,634 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: test_match_by_string (openerp.addons.base_import.tests.test_cases.test_match_headers_single)
+2015-08-12 11:10:29,635 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: test_nomatch (openerp.addons.base_import.tests.test_cases.test_match_headers_single)
+2015-08-12 11:10:29,635 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: test_recursive_match (openerp.addons.base_import.tests.test_cases.test_match_headers_single)
+2015-08-12 11:10:29,636 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: test_recursive_nomatch (openerp.addons.base_import.tests.test_cases.test_match_headers_single)
+2015-08-12 11:10:29,636 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: ` Match first level, fail to match second level
+2015-08-12 11:10:29,636 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: test_shallow (openerp.addons.base_import.tests.test_cases.test_o2m)
+2015-08-12 11:10:29,638 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: test_csv_errors (openerp.addons.base_import.tests.test_cases.test_preview)
+2015-08-12 11:10:29,719 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: test_encoding (openerp.addons.base_import.tests.test_cases.test_preview)
+2015-08-12 11:10:29,764 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: test_success (openerp.addons.base_import.tests.test_cases.test_preview)
+2015-08-12 11:10:29,768 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: Ran 27 tests in 1.343s
+2015-08-12 11:10:29,768 18399 INFO 00005-master-be6d09-base openerp.addons.base_import.tests.test_cases: OK
+2015-08-12 11:10:30,015 18399 INFO 00005-master-be6d09-base openerp.modules.module: module bus: creating or updating database tables
+2015-08-12 11:10:30,223 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading bus/views/bus.xml
+2015-08-12 11:10:30,249 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading bus/security/ir.model.access.csv
+2015-08-12 11:10:30,529 18399 INFO 00005-master-be6d09-base openerp.modules.module: module report: creating or updating database tables
+2015-08-12 11:10:31,309 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading report/views/layouts.xml
+2015-08-12 11:10:31,419 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading report/views/views.xml
+2015-08-12 11:10:31,561 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading report/data/report_paperformat.xml
+2015-08-12 11:10:31,576 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading report/security/ir.model.access.csv
+2015-08-12 11:10:31,601 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading report/views/report.xml
+2015-08-12 11:10:32,081 18399 INFO 00005-master-be6d09-base openerp.modules.module: module web_calendar: creating or updating database tables
+2015-08-12 11:10:32,083 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading web_calendar/views/web_calendar.xml
+2015-08-12 11:10:32,417 18399 INFO 00005-master-be6d09-base openerp.modules.module: module web_diagram: creating or updating database tables
+2015-08-12 11:10:32,420 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading web_diagram/views/web_diagram.xml
+2015-08-12 11:10:32,756 18399 INFO 00005-master-be6d09-base openerp.modules.module: module web_gantt: creating or updating database tables
+2015-08-12 11:10:32,760 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading web_gantt/views/web_gantt.xml
+2015-08-12 11:10:33,078 18399 INFO 00005-master-be6d09-base openerp.modules.module: module web_graph: creating or updating database tables
+2015-08-12 11:10:33,082 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading web_graph/views/web_graph.xml
+2015-08-12 11:10:33,401 18399 INFO 00005-master-be6d09-base openerp.modules.module: module web_kanban: creating or updating database tables
+2015-08-12 11:10:33,405 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading web_kanban/views/web_kanban.xml
+2015-08-12 11:10:33,724 18399 INFO 00005-master-be6d09-base openerp.modules.module: module web_view_editor: creating or updating database tables
+2015-08-12 11:10:33,729 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading web_view_editor/views/web_view_editor.xml
+2015-08-12 11:10:34,060 18399 INFO 00005-master-be6d09-base openerp.modules.module: module im_chat: creating or updating database tables
+2015-08-12 11:10:35,296 18399 INFO 00005-master-be6d09-base openerp.addons.auth_crypt.auth_crypt: Hashing passwords, may be slow for databases with many users...
+2015-08-12 11:10:35,364 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading im_chat/security/ir.model.access.csv
+2015-08-12 11:10:35,422 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading im_chat/security/im_security.xml
+2015-08-12 11:10:35,458 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading im_chat/views/im_chat.xml
+2015-08-12 11:10:35,792 18399 INFO 00005-master-be6d09-base openerp.modules.module: module web_kanban_gauge: creating or updating database tables
+2015-08-12 11:10:35,796 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading web_kanban_gauge/views/web_kanban_gauge.xml
+2015-08-12 11:10:36,130 18399 INFO 00005-master-be6d09-base openerp.modules.module: module web_tests: creating or updating database tables
+2015-08-12 11:10:36,132 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading web_tests/views/web_tests.xml
+2015-08-12 11:10:36,239 18399 INFO 00005-master-be6d09-base openerp.modules.module: openerp.addons.web_tests.tests.test_ui running tests.
+2015-08-12 11:10:36,239 18399 INFO 00005-master-be6d09-base openerp.addons.web_tests.tests.test_ui: test_03_js_public (openerp.addons.web_tests.tests.test_ui.TestUi)
+2015-08-12 11:10:36,242 18399 INFO 00005-master-be6d09-base openerp.tests.common: phantom_run executing phantomjs /home/bista/ws/odoo_git/addons/runbot/static/build/00005-master-be6d09/openerp/tests/phantomtest.js {"password": null, "code": "console.log('ok')", "timeout": 60, "ready": "console", "login": null, "url_path": "/", "db": "00005-master-be6d09-base", "port": 2000, "session_id": "5277c2a13169e2424288f314ba8ce74b24db2f08"}
+p2cread,===== None
+p2cwrite,===== None
+c2pread,,===== 11
+c2pwrite,,===== 12
+errread,,===== None
+errwrite===== None
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
+shell=========== False
+args======= ['phantomjs', '/home/bista/ws/odoo_git/addons/runbot/static/build/00005-master-be6d09/openerp/tests/phantomtest.js', '{"password": null, "code": "console.log(\'ok\')", "timeout": 60, "ready": "console", "login": null, "url_path": "/", "db": "00005-master-be6d09-base", "port": 2000, "session_id": "5277c2a13169e2424288f314ba8ce74b24db2f08"}']
+2015-08-12 11:10:36,258 18399 INFO 00005-master-be6d09-base openerp.addons.web_tests.tests.test_ui: skipped 'PhantomJS not found'
+2015-08-12 11:10:36,259 18399 INFO 00005-master-be6d09-base openerp.addons.web_tests.tests.test_ui: test_04_js_admin (openerp.addons.web_tests.tests.test_ui.TestUi)
+2015-08-12 11:10:36,262 18399 INFO 00005-master-be6d09-base openerp.tests.common: phantom_run executing phantomjs /home/bista/ws/odoo_git/addons/runbot/static/build/00005-master-be6d09/openerp/tests/phantomtest.js {"password": "admin", "code": "console.log('ok')", "timeout": 60, "ready": "openerp.client.action_manager.inner_widget", "login": "admin", "url_path": "/web", "db": "00005-master-be6d09-base", "port": 2000, "session_id": "80da3fe3c6ba5de0f316dddd9a805b1ccb93c3de"}
+p2cread,===== None
+p2cwrite,===== None
+c2pread,,===== 11
+c2pwrite,,===== 12
+errread,,===== None
+errwrite===== None
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.
+shell=========== False
+args======= ['phantomjs', '/home/bista/ws/odoo_git/addons/runbot/static/build/00005-master-be6d09/openerp/tests/phantomtest.js', '{"password": "admin", "code": "console.log(\'ok\')", "timeout": 60, "ready": "openerp.client.action_manager.inner_widget", "login": "admin", "url_path": "/web", "db": "00005-master-be6d09-base", "port": 2000, "session_id": "80da3fe3c6ba5de0f316dddd9a805b1ccb93c3de"}']
+2015-08-12 11:10:36,271 18399 INFO 00005-master-be6d09-base openerp.addons.web_tests.tests.test_ui: skipped 'PhantomJS not found'
+2015-08-12 11:10:36,272 18399 INFO 00005-master-be6d09-base openerp.addons.web_tests.tests.test_ui: Ran 2 tests in 0.033s
+2015-08-12 11:10:36,272 18399 INFO 00005-master-be6d09-base openerp.addons.web_tests.tests.test_ui: OK
+2015-08-12 11:10:36,272 18399 INFO 00005-master-be6d09-base openerp.addons.web_tests.tests.test_ui:  (skipped=2)
+2015-08-12 11:10:36,530 18399 INFO 00005-master-be6d09-base openerp.modules.module: module im_odoo_support: creating or updating database tables
+2015-08-12 11:10:36,532 18399 INFO 00005-master-be6d09-base openerp.modules.loading: loading im_odoo_support/views/im_odoo_support.xml
+2015-08-12 11:10:36,635 18399 INFO 00005-master-be6d09-base openerp.modules.loading: 16 modules loaded in 12.80s, 131 queries
+2015-08-12 11:10:37,012 18399 INFO 00005-master-be6d09-base openerp.modules.loading: Modules loaded.
+2015-08-12 11:10:37,014 18399 INFO 00005-master-be6d09-base openerp.modules.module: openerp.addons.report.tests.test_reports running tests.
+2015-08-12 11:10:37,014 18399 INFO 00005-master-be6d09-base openerp.addons.report.tests.test_reports: test_reports (openerp.addons.report.tests.test_reports.TestReports)
+2015-08-12 11:10:37,016 18399 INFO 00005-master-be6d09-base openerp.addons.report.tests.test_reports: Ran 1 test in 0.001s
+2015-08-12 11:10:37,016 18399 INFO 00005-master-be6d09-base openerp.addons.report.tests.test_reports: OK
+2015-08-12 11:10:37,032 18399 INFO 00005-master-be6d09-base openerp.modules.module: openerp.addons.base.tests.test_xmlrpc running tests.
+2015-08-12 11:10:37,032 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_xmlrpc: test_01_xmlrpc_login (openerp.addons.base.tests.test_xmlrpc.test_xmlrpc)
+2015-08-12 11:10:37,032 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_xmlrpc: ` Try to login on the common service.
+2015-08-12 11:10:37,270 18399 INFO 00005-master-be6d09-base openerp.service.common: successful login from 'admin' using database '00005-master-be6d09-base'
+2015-08-12 11:10:37,271 18399 INFO 00005-master-be6d09-base werkzeug: 127.0.0.1 - - [12/Aug/2015 11:10:37] "POST /xmlrpc/2/common HTTP/1.1" 200 -
+2015-08-12 11:10:37,271 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_xmlrpc: test_xmlrpc_ir_model_search (openerp.addons.base.tests.test_xmlrpc.test_xmlrpc)
+2015-08-12 11:10:37,272 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_xmlrpc: ` Try a search on the object service.
+2015-08-12 11:10:37,503 18399 INFO 00005-master-be6d09-base werkzeug: 127.0.0.1 - - [12/Aug/2015 11:10:37] "POST /xmlrpc/2/object HTTP/1.1" 200 -
+2015-08-12 11:10:37,507 18399 INFO 00005-master-be6d09-base werkzeug: 127.0.0.1 - - [12/Aug/2015 11:10:37] "POST /xmlrpc/2/object HTTP/1.1" 200 -
+2015-08-12 11:10:37,509 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_xmlrpc: Ran 2 tests in 0.477s
+2015-08-12 11:10:37,509 18399 INFO 00005-master-be6d09-base openerp.addons.base.tests.test_xmlrpc: OK
+2015-08-12 11:10:37,509 18399 INFO 00005-master-be6d09-base openerp.modules.loading: All post-tested in 0.50s, 24 queries
+2015-08-12 11:10:37,510 18399 INFO 00005-master-be6d09-base openerp.models: Computing parent left and right for table ir_ui_menu...
+2015-08-12 11:10:37,537 18399 INFO 00005-master-be6d09-base openerp.models: Computing parent left and right for table res_partner_category...
+2015-08-12 11:10:37,555 18399 INFO 00005-master-be6d09-base openerp.service.server: Initiating shutdown
+2015-08-12 11:10:37,555 18399 INFO 00005-master-be6d09-base openerp.service.server: Hit CTRL-C again or send a second signal to force the shutdown.
